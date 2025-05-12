@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon src/index.ts",
+    "dev": "tsc --watch & nodemon src/index.ts"
+  },
+  "type": "module",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
